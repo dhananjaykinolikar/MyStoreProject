@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-02T17:17:35 IST" name="Suite" finished-at="2022-01-02T17:18:27 IST" duration-ms="52439">
+  <suite started-at="2022-01-04T15:44:42 IST" name="Suite" finished-at="2022-01-04T15:46:25 IST" duration-ms="102588">
     <groups>
       <group name="smoke">
-        <method signature="IndexPageTest.verifylogo()[pri:0, instance:com.mystore.testcase.IndexPageTest@53976f5c]" name="verifylogo" class="com.mystore.testcase.IndexPageTest"/>
+        <method signature="IndexPageTest.verifylogo()[pri:0, instance:com.mystore.testcase.IndexPageTest@72cde7cc]" name="verifylogo" class="com.mystore.testcase.IndexPageTest"/>
       </group> <!-- smoke -->
       <group name="Smoke">
-        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystore.testcase.IndexPageTest@53976f5c]" name="verifyTitle" class="com.mystore.testcase.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystore.testcase.IndexPageTest@72cde7cc]" name="verifyTitle" class="com.mystore.testcase.IndexPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-01-02T17:17:35 IST" name="All Test" finished-at="2022-01-02T17:18:27 IST" duration-ms="52439">
+    <test started-at="2022-01-04T15:44:42 IST" name="All Test" finished-at="2022-01-04T15:46:25 IST" duration-ms="102588">
       <class name="com.mystore.testcase.IndexPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcase.IndexPageTest@53976f5c]" started-at="2022-01-02T17:17:34 IST" name="loadConfig" finished-at="2022-01-02T17:17:35 IST" duration-ms="764" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcase.IndexPageTest@72cde7cc]" started-at="2022-01-04T15:44:40 IST" name="loadConfig" finished-at="2022-01-04T15:44:42 IST" duration-ms="2143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="luanchApp(java.lang.String)[pri:0, instance:com.mystore.testcase.IndexPageTest@53976f5c]" started-at="2022-01-02T17:17:35 IST" name="luanchApp" finished-at="2022-01-02T17:17:56 IST" duration-ms="21226" status="PASS">
+        <test-method is-config="true" signature="luanchApp(java.lang.String)[pri:0, instance:com.mystore.testcase.IndexPageTest@72cde7cc]" started-at="2022-01-04T15:44:42 IST" name="luanchApp" finished-at="2022-01-04T15:45:30 IST" duration-ms="47515" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luanchApp -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testcase.IndexPageTest@53976f5c]" started-at="2022-01-02T17:17:56 IST" name="verifyTitle" finished-at="2022-01-02T17:17:56 IST" duration-ms="18" status="FAIL">
+        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testcase.IndexPageTest@72cde7cc]" started-at="2022-01-04T15:45:30 IST" name="verifyTitle" finished-at="2022-01-04T15:45:33 IST" duration-ms="3755" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [My Store1] but found [My Store]]]>
@@ -75,11 +75,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testcase.IndexPageTest@53976f5c]" started-at="2022-01-02T17:17:58 IST" name="teardown" finished-at="2022-01-02T17:17:58 IST" duration-ms="707" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testcase.IndexPageTest@72cde7cc]" started-at="2022-01-04T15:45:37 IST" name="teardown" finished-at="2022-01-04T15:45:38 IST" duration-ms="1452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="luanchApp(java.lang.String)[pri:0, instance:com.mystore.testcase.IndexPageTest@53976f5c]" started-at="2022-01-02T17:17:58 IST" name="luanchApp" finished-at="2022-01-02T17:18:23 IST" duration-ms="25109" status="PASS">
+        <test-method is-config="true" signature="luanchApp(java.lang.String)[pri:0, instance:com.mystore.testcase.IndexPageTest@72cde7cc]" started-at="2022-01-04T15:45:38 IST" name="luanchApp" finished-at="2022-01-04T15:46:13 IST" duration-ms="34934" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,15 +90,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- luanchApp -->
-        <test-method signature="verifylogo()[pri:0, instance:com.mystore.testcase.IndexPageTest@53976f5c]" started-at="2022-01-02T17:18:23 IST" name="verifylogo" finished-at="2022-01-02T17:18:26 IST" duration-ms="2925" status="PASS">
+        <test-method signature="verifylogo()[pri:0, instance:com.mystore.testcase.IndexPageTest@72cde7cc]" started-at="2022-01-04T15:46:13 IST" name="verifylogo" finished-at="2022-01-04T15:46:24 IST" duration-ms="10531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogo -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testcase.IndexPageTest@53976f5c]" started-at="2022-01-02T17:18:26 IST" name="teardown" finished-at="2022-01-02T17:18:27 IST" duration-ms="694" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testcase.IndexPageTest@72cde7cc]" started-at="2022-01-04T15:46:24 IST" name="teardown" finished-at="2022-01-04T15:46:25 IST" duration-ms="780" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testcase.IndexPageTest@53976f5c]" started-at="2022-01-02T17:18:27 IST" name="afterSuite" finished-at="2022-01-02T17:18:28 IST" duration-ms="454" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testcase.IndexPageTest@72cde7cc]" started-at="2022-01-04T15:46:25 IST" name="afterSuite" finished-at="2022-01-04T15:46:26 IST" duration-ms="724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

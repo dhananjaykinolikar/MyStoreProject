@@ -770,9 +770,10 @@ public class Action extends BaseClass {
 			e.getMessage();
 		}
 		// This new path for jenkins
-		String newImageString = "F:\\Selenium\\Selenium 28-03-2020\\Mars Projects\\MyStoreProject\\Screenshots" + filename + "_"
+		String newImageString = "F:\\Selenium\\Selenium 28-03-2020\\Mars Projects\\MyStoreProject\\Screenshots\\" + filename + "_"
 				+ dateName + ".png";
-		return newImageString;
+		return destination;
+		//return newImageString;
 	}
 
 	public static String getCurrentTime() {
