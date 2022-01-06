@@ -20,6 +20,7 @@
       <class name="com.mystore.testcase.EndToEndTest"/>
       <class name="com.mystore.testcase.LoginPageTest"/>
       <class name="com.mystore.testcase.HomePageTest"/>
+       <class name="com.mystore.testcase.IndexPageTest"/>
        -->
        
     </classes>

@@ -42,7 +42,7 @@ public class IndexPageTest extends BaseClass {
 		String actpagetitle=getDriver().getTitle();
 		System.out.println(actpagetitle);
 		//String actpagetitle=indexpage.PageTitle();
-		Assert.assertEquals(actpagetitle, "My Store1");
+		Assert.assertEquals(actpagetitle, "My Store");
 	}
 
 }

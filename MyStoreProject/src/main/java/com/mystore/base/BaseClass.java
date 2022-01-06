@@ -78,26 +78,29 @@ public class BaseClass {
 
 	
 	public  static void launchApp(String browsername) {
-		WebDriverManager.chromedriver().setup();
-		WebDriverManager.iedriver().setup();
+		
+		
+		
 		
 		//String browsername= prop.getProperty("browser");
 		
-		if(browsername.equalsIgnoreCase("chrome")) {
+		if(browsername.equalsIgnoreCase("Chrome")) {
 			//driver = new ChromeDriver();
 			
 			// Set Browser to ThreadLocalMap
+			WebDriverManager.chromedriver().setup();
 			driver.set(new ChromeDriver());
 			
 		}if(browsername.equalsIgnoreCase("IE")) {
 			//driver = new InternetExplorerDriver();
-			
+			WebDriverManager.iedriver().setup();
 			driver.set(new InternetExplorerDriver());
 		}else {
 			//driver = new ChromeDriver();
 			
 			// Set Browser to ThreadLocalMap
-			driver.set(new ChromeDriver());
+			//driver.set(new ChromeDriver());
+			System.out.println("Please check browser");
 		}
 		
 		//Action.implicitWait(driver, 20);
@@ -113,7 +116,7 @@ public class BaseClass {
 		getDriver().manage().window().maximize();
 		
 		//driver.manage().deleteAllCookies();
-		getDriver().manage().deleteAllCookies();
+		//getDriver().manage().deleteAllCookies();
 		
 		//driver.get(prop.getProperty("url"));
 		getDriver().get(prop.getProperty("url"));

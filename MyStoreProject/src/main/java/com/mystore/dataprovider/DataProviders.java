@@ -22,6 +22,7 @@ public class DataProviders {
 		// Total Columns
 		int column = obj.getColumnCount("Credentials");
 		int actRows = rows - 1;
+		System.out.println("row count= "+actRows);
 
 		Object[][] data = new Object[actRows][column];
 
