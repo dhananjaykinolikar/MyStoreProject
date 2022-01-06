@@ -7,15 +7,15 @@
   <test thread-count="5" name="All Test(failed)">
     <parameter name="browsername" value="Chrome"/>
     <classes>
-      <class name="com.mystore.testcase.IndexPageTest">
+      <class name="com.mystore.testcase.LoginPageTest">
         <methods>
-          <include name="afterSuite"/>
           <include name="luanchApp"/>
-          <include name="loadConfig"/>
-          <include name="verifyTitle"/>
+          <include name="afterSuite"/>
+          <include name="LoginPage" invocation-numbers="0"/>
           <include name="teardown"/>
+          <include name="loadConfig"/>
         </methods>
-      </class> <!-- com.mystore.testcase.IndexPageTest -->
+      </class> <!-- com.mystore.testcase.LoginPageTest -->
     </classes>
   </test> <!-- All Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
